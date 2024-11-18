@@ -5,7 +5,8 @@ import { GettingStartedComponent } from './getting-started/getting-started.compo
 
 export const routes: Routes = [
     { path: '', component: IntroComponent },
-    { path: 'getting-started', component: GettingStartedComponent }
+    { path: 'getting-started', component: GettingStartedComponent },
+    { path: 'tutorials/writing-a-json-scene', component: AppComponent }
 ];
 
 export const appRoutingModule = RouterModule.forRoot(routes);

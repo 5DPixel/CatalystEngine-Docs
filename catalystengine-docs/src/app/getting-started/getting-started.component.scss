@@ -29,7 +29,29 @@ a {
     font-family: 'Roboto';
     font-weight: 400;
     color:rgb(255, 134, 134);
-    margin-left: 3vw;
+    margin-left: 1vw;
+}
+
+button {
+    font-size: 1.5vw;
+    font-family: 'Roboto';
+    font-weight: 450;
+    color: #dec9c9;
+    background-color: #3f3c3c;
+    border-radius: 20px;
+    border: 0px solid;
+    margin: 30px;
+    margin-left: 30px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+
+    transition: background-color 200ms linear;
+}
+
+button:hover {
+    background-color: #6e6868;
+    transition: background-color 200ms ease-out;
 }
 
 @keyframes fade-up {

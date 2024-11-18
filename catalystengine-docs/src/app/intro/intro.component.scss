@@ -54,6 +54,11 @@ button:hover {
     transition: background-color 200ms ease-out;
 }
 
+.content {
+    flex-grow: 1;
+    padding: 10px;
+}
+
 .container {
     margin-left: auto;
     margin-right: auto;
